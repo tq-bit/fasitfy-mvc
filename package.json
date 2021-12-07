@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.2",
+    "fastify-cors": "^6.0.2",
+    "fastify-sensible": "^3.1.1",
+    "fastify-swagger": "^4.9.1",
+    "knex": "^0.4.13",
+    "luxon": "^2.0.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.0",
+    "randomstring": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
